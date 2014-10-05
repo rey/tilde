@@ -1,4 +1,6 @@
 body {
+  border-top: 2px solid #ff66cc;
+  border-left: 2px solid #ff66cc;
   padding: 20px;
 }
 
@@ -37,8 +39,8 @@ time {
   margin-bottom: 10px;
 }
 
-.post {
-  margin-bottom: 40px;
+article {
+  margin-bottom: 60px;
 }
 
 p {
