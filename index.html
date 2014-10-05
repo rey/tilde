@@ -19,6 +19,18 @@
         <section id="blog">
           <div class="post">
             <time>5 October 2014</time>
+            <h2>How to get passwordless ssh to work on tilde.club</h2>
+            <p>On your machine:</p>
+            <code>
+              cat .ssh/id_rsa.pub | ssh USER@tilde.club 'cat >> .ssh/authorized_keys'
+            </code>
+            <p>On tilde:</p>
+            <code>
+              chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+            </code>
+          </div>
+          <div class="post">
+            <time>5 October 2014</time>
             <p>Trying to get passwordless login working. No luck so far.</p>
           </div>
           <div class="post">

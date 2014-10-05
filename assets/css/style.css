@@ -25,6 +25,12 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
 time {
   display: block;
   font-weight: 700;
@@ -33,4 +39,15 @@ time {
 
 .post {
   margin-bottom: 40px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+code {
+  color: teal;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
