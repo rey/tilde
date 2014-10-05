@@ -1,14 +1,36 @@
-.slick-slider {
-  margin: 0 auto;
-  width: 400px;
+body {
+  padding: 20px;
 }
 
-.slick-slider button {
-  top: 210px;
+header {
+  margin-bottom: 20px;
 }
-.slick-slider button:before {
-  color: #000;
+
+main {
+  margin-bottom: 20px;
 }
-img {
-  width: 400px;
+
+footer {
+  text-align: right;
+}
+
+.sleep {
+  display: none;
+}
+
+.container {
+}
+
+h1 {
+  font-weight: 700;
+}
+
+time {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.post {
+  margin-bottom: 40px;
 }
