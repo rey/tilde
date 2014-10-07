@@ -1,7 +1,10 @@
 body {
-  border-top: 2px solid #ff66cc;
-  border-left: 2px solid #ff66cc;
-  padding: 20px;
+  font-size: 18px;
+  padding: 40px;
+}
+
+div.rey {
+  width: 740px;
 }
 
 header {
@@ -14,14 +17,11 @@ main {
 }
 
 footer {
-  text-align: right;
-}
-
-.sleep {
-  display: none;
+  clear: both;
 }
 
 h1 {
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -29,7 +29,6 @@ h2 {
   font-weight: 700;
   margin-bottom: 20px;
 }
-
 
 time {
   display: block;
@@ -41,24 +40,43 @@ article {
   margin-bottom: 60px;
 }
 
+article blockquote {
+  margin-left: 20px;
+}
+
+article img {
+  max-width: 400px;
+}
+
+article#first {
+  margin-bottom: 0;
+}
+
 article:target {
   background-color: #ffffcc;
+}
+
+article code {
+  color: teal;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 p {
   margin-bottom: 20px;
 }
 
+b {
+  font-weight: 700;
+}
+
 ol {
+  margin-bottom: 20px;
   margin-left: 30px;
 }
 ol li {
   list-style-type: decimal;
 }
 
-code {
-  color: teal;
-  display: block;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
