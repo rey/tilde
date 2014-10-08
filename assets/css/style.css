@@ -3,26 +3,35 @@ body {
   padding: 40px;
 }
 
+a {
+  color: #ff66cc;
+}
+
 div.rey {
-  width: 740px;
-}
-
-header {
-  margin-bottom: 20px;
-}
-
-main {
-  margin-bottom: 20px;
   width: 500px;
 }
 
+header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+main {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
 footer {
-  clear: both;
+  text-align: center;
 }
 
 h1 {
-  font-size: 50px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -33,7 +42,7 @@ h2 {
 time {
   display: block;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 article {
