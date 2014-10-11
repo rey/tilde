@@ -1,5 +1,7 @@
 body {
+  background-color: #f1efec;
   font-size: 18px;
+  line-height: 120%;
   padding: 40px;
 }
 
@@ -8,6 +10,14 @@ a {
 }
 
 div.rey {
+  background-color: #fff;
+  // looking at this makes my head hurt
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
   width: 500px;
 }
 
