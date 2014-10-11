@@ -37,6 +37,8 @@ div.rey {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
   padding: 20px;
   width: 500px;
 }
