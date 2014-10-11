@@ -9,6 +9,26 @@ a {
   color: #ff66cc;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
+b {
+  font-weight: 700;
+}
+
+ol, ul {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+ol li {
+  list-style-type: decimal;
+}
+
+ul li {
+  list-style-type: decimal;
+}
+
 div.rey {
   background-color: #fff;
   // looking at this makes my head hurt
@@ -39,6 +59,10 @@ footer {
   text-align: center;
 }
 
+footer p {
+  margin-bottom: 0;
+}
+
 h1 {
   font-weight: 700;
   margin-bottom: 10px;
@@ -67,10 +91,6 @@ article img {
   max-width: 400px;
 }
 
-article#first {
-  margin-bottom: 0;
-}
-
 article:target {
   background-color: #ffffcc;
 }
@@ -82,20 +102,3 @@ article code {
   margin-bottom: 20px;
   margin-left: 20px;
 }
-
-p {
-  margin-bottom: 20px;
-}
-
-b {
-  font-weight: 700;
-}
-
-ol {
-  margin-bottom: 20px;
-  margin-left: 30px;
-}
-ol li {
-  list-style-type: decimal;
-}
-
