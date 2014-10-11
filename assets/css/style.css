@@ -46,6 +46,16 @@ header {
   margin-bottom: 20px;
 }
 
+header h1 a {
+  color: #202020;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: #ff66cc;
+  text-decoration: none;
+}
+
 header p {
   font-size: 16px;
 }
@@ -64,6 +74,7 @@ footer p {
 }
 
 h1 {
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -77,6 +88,16 @@ time {
   display: block;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+time a {
+  color: #ccc;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+time a:hover {
+  color: #ff65cc;
 }
 
 article {
