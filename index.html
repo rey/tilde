@@ -13,6 +13,27 @@
       <main>
         <section id="blog">
           <!-- avast -->
+          <article id="64dc3f">
+            <time><a href="#64dc3f">&#10047;</a>12 October 2014</time>
+            <h2>Generating a 6 character hash</h2>
+            <p>I think I'm going to write a bash script that will generate the
+            HTML for these blog posts and automagically fill in the correct date
+            and permalink hash but until then...</p>
+            <p>I wanted a way to generate a 6 character hash for the permalinks.
+            After some googling I figured this cheeky line would do it:</p>
+            <code>
+              date | md5sum | cut -c 1-6
+            </code>
+            <p>I created an alias in my `.bash_profile` for ease:</p>
+            <code>
+              alias hash='date | md5sum | cut -c 1-6'
+            </code>
+          </article>
+          <article id="2f4514">
+            <time><a href="#2f4514">&#10047;</a>12 October 2014</time>
+            <p>Primarily for my own benefit I added a sidebar with some handy
+            links.</p>
+          </article>
           <article id="cc8184">
             <time><a href="#cc8184">&#10047;</a>11 October 2014</time>
             <p>
